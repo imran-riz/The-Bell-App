@@ -288,8 +288,6 @@ public class Bell implements Serializable
     {
         this.cancel() ;
         this.status = Status.PAUSED ;
-
-        System.out.println(this.bellID + " has been " + this.status + "!") ;
     }
 
 
