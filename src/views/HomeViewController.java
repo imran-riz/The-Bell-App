@@ -78,8 +78,6 @@ public class HomeViewController implements Initializable
             // do this for every bell that exists
             for(Bell b: BellCollection.getInstance().getListOfBells())
             {
-                System.out.println(b.getBellID() + ": " + b.getStatus());
-
                 if(b.getStatus().equalsIgnoreCase(Status.INTERRUPTED))    // if it's interrupted
                 {
                     if(b.checkFile())
