@@ -16,7 +16,7 @@ The details of a bell can be viewed by simply double clicking on them in the tab
 
 
 For more information about installation and how it works, check: 
-#### [Documentation](https://github.com/space-ninja-x/The-Bell-App/blob/main/Documentation)
+#### [Documentation](https://github.com/space-ninja-x/The-Bell-App/wiki)
 
 
 And to download the setup file for Windows, check: 
