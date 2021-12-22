@@ -10,14 +10,8 @@ A user can create a bell by giving it a start time, end time, period, etc. The u
 ![Screenshot 2021-12-22 164150](https://github.com/space-ninja-x/The-Bell-App/blob/main/Screenshots/Screenshot%202021-12-22%20164053.png)
 
 
-The details of a bell can be viewed by simply double clicking on them in the table.
-
-![](https://github.com/space-ninja-x/The-Bell-App/blob/main/Screenshots/Screenshot%202021-12-22%20164227.png)
-
 
 For more information about installation and how it works, check the [documentation](https://github.com/space-ninja-x/The-Bell-App/wiki).
-
-
 
 
 ## **Copyright 2021** [Imran R.](https://github.com/space-ninja-x)
