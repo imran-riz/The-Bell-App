@@ -19,7 +19,7 @@ For more information about installation and how it works, check:
 ### [Documentation](https://github.com/space-ninja-x/The-Bell-App/blob/main/Documentation)
 
 And to download the setup file for Windows, check:
-### [Windows Installer](https://github.com/space-ninja-x/The-Bell-App/blob/main/Windows%20Installer)
+### [Windows Installer](https://drive.google.com/drive/folders/1vyoMqlP78hlA5B7QReNQriJpk6NLuObh)
 
 
 
