@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ * Copyright (c) 2021 by Imran R.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+-->
+
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane fx:id="root" prefHeight="550.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="views.AddBellViewController">
+   <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="300.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+      <Image url="@../resources/images/bell_icon.png" />
+   </ImageView>
+   <Label fx:id="header" alignment="CENTER" layoutY="63.0" prefHeight="60.0" text="ADD A NEW BELL" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+   <VBox fx:id="mainVBox" alignment="CENTER" layoutY="146.8" prefHeight="323.0" prefWidth="600.0" AnchorPane.bottomAnchor="80.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+      <CheckBox fx:id="checkBox" mnemonicParsing="false" prefHeight="30.0" text="Ring Once">
+         <VBox.margin>
+            <Insets bottom="10.0" />
+         </VBox.margin></CheckBox>
+      <HBox alignment="CENTER" prefHeight="40.0" prefWidth="200.0" spacing="5.0">
+         <Label prefWidth="75.0" text="Start time">
+            <HBox.margin>
+               <Insets />
+            </HBox.margin>
+         </Label>
+         <ComboBox fx:id="startHr" prefHeight="25.0" prefWidth="65.0" />
+         <Label text=":" />
+         <ComboBox fx:id="startMin" layoutX="202.0" layoutY="17.0" prefHeight="25.0" prefWidth="65.0">
+            <HBox.margin>
+               <Insets />
+            </HBox.margin>
+         </ComboBox>
+         <ChoiceBox fx:id="startChoiceBox" prefWidth="50.0">
+            <HBox.margin>
+               <Insets left="15.0" />
+            </HBox.margin>
+         </ChoiceBox>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="10.0" layoutY="107.0" prefHeight="40.0" prefWidth="200.0" spacing="5.0">
+         <Label prefWidth="75.0" text="End time" />
+         <ComboBox fx:id="endHr" prefHeight="25.0" prefWidth="65.0">
+            <HBox.margin>
+               <Insets />
+            </HBox.margin>
+         </ComboBox>
+         <Label text=":" />
+         <ComboBox fx:id="endMin" prefHeight="25.0" prefWidth="65.0">
+            <HBox.margin>
+               <Insets />
+            </HBox.margin>
+         </ComboBox>
+         <ChoiceBox fx:id="endChoiceBox" prefWidth="50.0">
+            <HBox.margin>
+               <Insets left="15.0" />
+            </HBox.margin>
+         </ChoiceBox>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="10.0" layoutY="134.0" prefHeight="40.0" prefWidth="200.0" spacing="15.0">
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+         <Label prefWidth="95.0" text="Period">
+            <HBox.margin>
+               <Insets right="40.0" />
+            </HBox.margin>
+         </Label>
+         <TextField fx:id="periodField" prefHeight="25.0" prefWidth="50.0">
+            <HBox.margin>
+               <Insets />
+            </HBox.margin>
+         </TextField>
+         <ChoiceBox fx:id="periodChoiceBox" prefWidth="75.0">
+            <HBox.margin>
+               <Insets />
+            </HBox.margin>
+         </ChoiceBox>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="10.0" layoutY="205.0" prefHeight="40.0" prefWidth="200.0" spacing="15.0">
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+         <Label prefWidth="95.0" text="Repeat">
+            <HBox.margin>
+               <Insets right="40.0" />
+            </HBox.margin>
+         </Label>
+         <ComboBox fx:id="repeatBox" prefWidth="140.0" />
+      </HBox>
+      <HBox alignment="CENTER" layoutX="10.0" layoutY="245.0" prefHeight="40.0" prefWidth="200.0" spacing="5.0">
+         <Label prefWidth="85.0" text="Audio File" />
+         <TextField fx:id="audioFileField" editable="false" prefHeight="25.0" prefWidth="160.0" />
+         <Button fx:id="searchBtn" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#openFileChooser" prefHeight="25.0" prefWidth="25.0" />
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="40.0" prefWidth="200.0" spacing="5.0">
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+         <Label prefWidth="85.0" text="Description" />
+         <TextField fx:id="descriptionField" prefHeight="25.0" prefWidth="200.0" />
+      </HBox>
+      <Button fx:id="addBtn" mnemonicParsing="false" onAction="#add" prefHeight="30.0" prefWidth="100.0" text="ADD">
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin></Button>
+   </VBox>
+   <Label fx:id="warningLbl" alignment="CENTER" layoutX="286.0" layoutY="369.0" prefHeight="60.0" text="NOTE: The bell will not ring if the computer is put to sleep or when the application is not running!" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+</AnchorPane>
