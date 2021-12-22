@@ -25,6 +25,6 @@ And to download the setup file for Windows, check:
 
 
 
-## **Copyright 2021** [Imran Rizwan](https://github.com/space-ninja-x)
+## **Copyright 2021** [Imran R.](https://github.com/space-ninja-x)
 
 ### Licensed under [Apache License 2.0.](https://github.com/space-ninja-x/The-Bell-App/blob/main/LICENSE)
