@@ -14,6 +14,6 @@ A user can create a bell by giving it a start time, end time, period, etc. The u
 For more information about installation and how it works, check the [documentation](https://github.com/space-ninja-x/The-Bell-App/wiki).
 
 
-## **Copyright 2021** [Imran R.](https://github.com/space-ninja-x)
+## **Copyright 2021** by [Imran R.](https://github.com/space-ninja-x)
 
 ### Licensed under [Apache License 2.0.](https://github.com/space-ninja-x/The-Bell-App/blob/main/LICENSE)
