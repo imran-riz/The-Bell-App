@@ -46,7 +46,7 @@ public class AboutViewController implements Initializable
         {
             try
             {
-                Desktop.getDesktop().browse(new URI("https://github.com/space-ninja-x/The-Bell-App#the-bell-app")) ;
+                Desktop.getDesktop().browse(new URI("https://github.com/imran-2003/The-Bell-App/tree/version1.0.0#the-bell-app)) ;
             }
             catch(Exception ex)
             {
