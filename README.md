@@ -11,7 +11,7 @@ The updated home page:
 
 The updated add bell page:
 
-![](https://github.com/imran-2003/The-Bell-App/blob/version1.1.0/Screenshots/v1.1.0%20home%20page.png)
+![](https://github.com/imran-2003/The-Bell-App/blob/version1.1.0/Screenshots/v1.1.0%20add%20new%20bell%20page.png)
 
 
 For more information about installation and how it works, check the [documentation](https://github.com/space-ninja-x/The-Bell-App/wiki).
