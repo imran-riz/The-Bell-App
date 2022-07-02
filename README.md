@@ -1,4 +1,4 @@
-# The-Bell-App
+# The-Bell-App v1.0.0
 
 This is an **automatic bell ringing system** intended to help school administrations schedule bells to be rung on school days, for exams and whenever required.
 
