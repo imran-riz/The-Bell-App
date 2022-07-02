@@ -57,7 +57,7 @@ public class AboutPageController implements Initializable
     public void initialize(URL url, ResourceBundle resourceBundle) {
         this.hyperlink.setOnAction(e -> {
             try {
-                Desktop.getDesktop().browse(new URI("https://github.com/space-ninja-x/The-Bell-App#the-bell-app")) ;
+                Desktop.getDesktop().browse(new URI("https://github.com/imran-2003/The-Bell-App/tree/version1.1.0#the-bell-app-v110")) ;
             }
             catch(Exception ex) {
                 ex.printStackTrace();
