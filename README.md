@@ -1,6 +1,6 @@
 # The-Bell-App v1.1.0
 
-This is an **automatic bell ringing system** intended to help school administrations schedule bells to be rung on school days, for exams and whenever required. This an updated version of the [initial release](https://github.com/imran-2003/The-Bell-App/tree/version1.0.0). The app has got a major UI update and the functionality remains the same.
+An **automatic bell ringing system** intended to help school administrations schedule bells to be rung on school days, for exams and whenever required. This an updated version of the [initial release](https://github.com/imran-2003/The-Bell-App/tree/version1.0.0). The app has got a major UI update and the functionality remains the same.
 
 A user can create a bell by giving it a start time, end time, period, etc. The user is not restricted to an audio file, instead the desired audio file can be selected. The details of each bell will be stored locally on disk. So there's no need to create them every time the application is opened! However, bells that are not to be repeated will be deleted once the application is closed.
 
